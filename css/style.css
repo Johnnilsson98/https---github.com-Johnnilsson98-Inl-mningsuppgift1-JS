@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+
+main{
+    width: 40%;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+section{
+    background-color: rgb(245, 243, 224);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 30px;
+}
+
+section h3{
+    text-align: center;
+    padding-top: 5px;
+}
+
+section p{
+    padding: 8px;
+    word-wrap: break-word;
+}
+
+aside{
+    float: right;
+    margin-right: 7%;
+    width: 15%;
+    background-color: rgb(245, 243, 224);
+    z-index: 10;
+    position: sticky;
+    top: 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+aside h1{
+    text-align: center;
+}
+
+aside input{
+    width: 50%;
+    min-width: 40px;
+}
+
+aside button{
+    width: 30%;
+    margin:auto;
+    margin-bottom: 10px;
+    display:block;
+}
+
+.howManyPosts{
+    padding-left: 35%;
+    padding-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 70%;
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+img:hover{
+    opacity: 0.5;
+}
